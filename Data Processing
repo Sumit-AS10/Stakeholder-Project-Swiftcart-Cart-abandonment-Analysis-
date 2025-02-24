@@ -1,0 +1,76 @@
+-- Swift Cart Project
+
+-- * Create new database.
+CREATE DATABASE IF NOT EXISTS temp_swiftcart;
+
+-- * Use existing database to work upon.
+USE temp_swiftcart;
+
+-- * Import the tables into the database through "Import Data Wizard"
+
+/*
+Now our tables are imported.
+We do have 4 tables.
+
+Transactions
+Event_log
+Cart_abandonment
+Customer_profile
+*/
+
+/*
+--** Transactions table column description: **--
+
+order_id: Contain unique order id for each transaction
+session_id: the unique session id for each transaction.
+customer_id: The id refers to the customer, who made transaction and it establish the relationship with customer_profile, cart_abandonment and event_log table.
+order_timestamp: It refers date on which the transaction was made.
+total_price: The total order amount.
+number_of_items: The number of items were purchased in each transaction.
+payment_method: The method were used for transaction.
+shipping_region: The region belongs to the transaction order.
+device_type: Which device was used for the transaction.
+order_status: It refers, whether the order was completed, failed, pending.
+order_value_category: It is categorized based on the total order amount, eg: low, high, medium, premium.
+
+
+--** Event_log table column description: **--
+
+event_id: Shows unique event id for each event type while using the platform application or website.
+session_id: It represent the session through out the user experience journey on the platform.
+customer_id: The customer, who used the platform.
+event_timestamp: Each event records the date and timestamp for each session. 
+event_type: Each event type represent the page, where customer spend their time. 
+device_type: Which device was used for the platform.
+event_details: It explain the same details for the user during the session, from session started to complete the purchase.
+
+
+--** Cart Abandonment table column description: **--
+
+session_id: It refers each unique session id for cart before completing the purchase.
+customer_id: The customer who add the cart in the cart before purchasing it.
+device_type: The device was used during on the platform.
+first_item_added: The date and timestamp, when the first item was added into the cart.
+last_item_added: The date and timestamp, when last item was added into the cart.
+time_spent_in_cart: The duration in minutes between first item and last item.
+discount_count: The number category defines, how many times a customer applied discounts.
+item_category: Name of the categories were added into the cart.
+number_of_items: Number of items were added into the cart.
+total_price: The cart value including all added items.
+currency: The currency was used during the purchase.
+shipping_region: The region belongs to the user location.
+abandoned_checkout: It returns TRUE or FALSE boolean values, which shows whether customer left the cart abandoned or not before proceeding for checkout.
+checkout_attempted: It returns TRUE or FALSE boolean values, which shows whether customer attempted in the payment section or not, just left the cart abandoned.
+payment_method: The source of paying the order amount.
+reason_for_abandonment: It tells the reasons to be abandoned the cart due to customer willing issues or platform glitches.
+marketing_source: The source, through which customer was engaged to use the platform.
+
+
+--** Customer profile table column description: **--
+
+customer_id: It refers unique identify customer.
+signup_date: The date on which customer singed up on the platform.
+preferred_device: The device was used for the sign-up.
+region: The customer belongs which region (Location).
+preferred_marketing_source: The source of reaching out on the platform by the customer. 
+*/
