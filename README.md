@@ -8,6 +8,8 @@ Publish Date: 23.02.2025
 ### Swift Cart Co. 
 #### E-commerce, Founded in 2022.
 
+![Image](https://github.com/user-attachments/assets/18e7f90b-a26d-4c5c-abe3-6f95fb684e3a)
+
 # Project Overview
 At Swift Cart, we pride ourselves on providing a seamless and intuitive shopping experience. However, as our business has grown, so have the challenges. Over the past months, our analytics team has observed a consistent pattern: a significant number of users add items to their carts but fail to complete their purchases. As part of our mission to optimize the customer journey, we’re figuring out to understand the underlying reasons behind cart abandonment and identify actionable insights that can transform these missed opportunities into completed sales.
 
@@ -20,7 +22,7 @@ Our primary objective is to identify, analyze the factors that lead to cart aban
 The findings from this project will serve multiple teams within Swift Cart:
 #### Marketing Team:
 To refine retargeting strategies and enhance promotional campaigns.
-#### Product and UX Teams: 
+#### Product and UX Teams:
 To improve the checkout flow and overall website design.
 #### Customer Service: 
 To better understand customer pain points and address common concerns.
