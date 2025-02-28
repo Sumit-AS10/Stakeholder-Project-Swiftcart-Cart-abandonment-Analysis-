@@ -49,6 +49,9 @@ Our analysis is driven by a set of targeted business questions designed to uncov
 ## Q. What is the impact of applied discounts and shipping costs on the decision to complete a purchase?
 ## Q. Are there specific user segments or demographics that exhibit higher abandonment rates?
 
+#### Get the full dashboard link: https://project.novypro.com/ViCwus
+![Image](https://github.com/user-attachments/assets/506e8f0e-26f1-444d-b66e-4d6c40a6b1d5)
+
 ## Executive Summary
 SwiftCart abandonment analysis has 6.1K abandoned records with 1.5K Transactions across 2024 shows annual 255.6K revenue.
 ### Cart Abandonment Drivers:
